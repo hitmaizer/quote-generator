@@ -10,5 +10,6 @@ export default styled.div`
     line-height: 120%;
     max-width: 614px;
     display: inline-block;
+    margin-bottom: 100px;
 
 `

@@ -46,7 +46,14 @@
   background-color: #4F4F4F;
   color: #F2F2F2;
   gap: 8px;
+  margin-bottom: 100px;
   cursor: pointer;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.random__btn:hover {
+  background-color: #000000;
 }
 
 .btn__text {

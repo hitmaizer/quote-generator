@@ -32,7 +32,13 @@
     background-color: $darkGray;
     color: $offWhite;
     gap: 8px;
+    margin-bottom: 100px;
     cursor: pointer;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: $black;
+    }
 }
 
 .btn__text {
