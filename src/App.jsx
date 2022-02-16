@@ -1,4 +1,6 @@
 import React from 'react'
+import Quote from './components/Quote'
+import RandomBtn from './components/RandomBtn'
 
 export default function App() {
     const [quotesData, setQuotesData] = React.useState([])
@@ -12,6 +14,9 @@ export default function App() {
     console.log(quotesData)
 
     return (
-        <h1>Hello mate!</h1>
+        <div className="page__wrapper">
+            <RandomBtn />
+            <Quote />
+        </div>
     )
 }
