@@ -2,3 +2,42 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.page__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.random__quote {
+    width: 100%;
+    place-content: flex-end;
+}
+
+.random__btn {
+    border: none;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: $darkGray;
+    color: $offWhite;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.btn__text {
+    font-family: $raleway;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: $offWhite;
+}
