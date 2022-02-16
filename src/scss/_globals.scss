@@ -17,6 +17,7 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 32px;
+   display: inline-block;
 }
 
 .random__quote {
@@ -40,4 +41,31 @@
     font-size: 18px;
     line-height: 120%;
     color: $offWhite;
+}
+
+.author__btn {
+    width: 672px;
+    height: 151px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author__name {
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: $darkGray;
+}
+
+.quote__genre {
+    font-family: $raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $lightGray;
+}
+
+.btn__icon {
+    color: $white;
 }

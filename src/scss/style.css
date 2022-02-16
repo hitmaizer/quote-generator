@@ -29,6 +29,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 32px;
+  display: inline-block;
 }
 
 .random__quote {
@@ -54,4 +55,35 @@
   font-size: 18px;
   line-height: 120%;
   color: #F2F2F2;
+}
+
+.author__btn {
+  width: 672px;
+  height: 151px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author__name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4F4F4F;
+}
+
+.quote__genre {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.btn__icon {
+  color: #fff;
 }
