@@ -45,7 +45,9 @@ export default function App() {
                 currentQuote={currentQuote}  />}
                 <Author data={quotesData}
                 currentQuote={currentQuote}
-                handleAuthor={handleAuthor} />
+                handleAuthor={handleAuthor}
+                state={singleQuote}
+                filteredQuotes={filteredQuotes} />
             </div>
         </div>
     )
