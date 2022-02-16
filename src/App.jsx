@@ -1,4 +1,5 @@
 import React from 'react'
+import Author from './components/Author'
 import Quote from './components/Quote'
 import RandomBtn from './components/RandomBtn'
 
@@ -16,7 +17,10 @@ export default function App() {
     return (
         <div className="page__wrapper">
             <RandomBtn />
-            <Quote />
+            <div className="quote__container flex-col">
+                <Quote />
+                <Author />
+            </div>
         </div>
     )
 }
