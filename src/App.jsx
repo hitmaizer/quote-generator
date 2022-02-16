@@ -26,6 +26,7 @@ export default function App() {
     function getRandomQuote() {
         const randomQuote = Math.floor(Math.random() * quotesData.length)
         setCurrentQuote(quotesData[randomQuote])
+        setSingleQuote(true)
     }
 
     function handleAuthor(author) {
